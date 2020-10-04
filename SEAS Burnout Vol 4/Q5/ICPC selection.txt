@@ -1,0 +1,51 @@
+The team named SEAS_Phoenix(currently dp_nahi_aati) were selected for the regionals in ACM-ICPC. During the contest they were solving a difficult question. In this question, they were given two numbers A and B and they were asked to find maximum beauty.
+
+(Maximum beauty is defined as minimum possible difference of B and A). The additional condition in this question made this question more difficult than this question already was, that condition was that you can only reorder A(i.e. rearrange the digits of A)such that A is strictly less than B.Changing B is strictly not allowed.
+
+So, if A = 1435 (so, the possible arrangements will be 4135, 5341, ... and so on) So, help them find the maximum beauty.
+
+(PS: If you are able to successfully perform this task, then there might be a chance that they can select you as a member in next ACM-ICPC).
+
+Input Format
+
+First line contains T test cases
+
+Second Line of each test case contains integer A
+
+Third line of each test case contains integer B
+
+Constraints
+
+
+
+
+TASKS: Subtask 1:(10 points)
+
+
+Subtask 2:(20 points)
+
+
+Subtask 3:(70 points)
+
+(Original Constraints)
+
+Output Format
+
+Output the number with minimum beauty for each test case.
+
+Sample Input 0
+
+2
+10000111
+12345678
+31244
+31555
+Sample Output 0
+
+11110000
+31442
+Explanation 0
+
+First Case: You can rearrange A as 11110000. The minimum difference will be: 12345678 - 11110000 = 1235678
+
+Second Case The minimum differnece will be: 31555 - 31442 = 113

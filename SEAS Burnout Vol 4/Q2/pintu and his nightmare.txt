@@ -1,0 +1,43 @@
+Professor N padmanabhan got angry on the class and as a part of punishment instructed only Pintu to give ouput of provided series as he is the most notorious student. But Mathematics is nightmare for chemistry loving Pintu. Help Pintu to give answer of this series. As the output can be very large compute modulo  wherever required.
+
+Series: 1*1! + 2*2! + 3*3! + 4*4!....N*N!.
+(Output should be processed % ()).
+
+Input Format
+
+First line of input contains T test cases. First line of each test case contains N.
+
+Constraints
+
+Subtask 1(20 points):
+
+
+
+Subtask 2(30 points):
+
+
+
+Subtask 3(50 points):
+
+
+
+Output Format
+
+Answer the output of the series for each test case.
+
+Sample Input 0
+
+3
+2
+3
+20
+Sample Output 0
+
+5
+23
+72847301
+Explanation 0
+
+For first testcase  is .
+
+For second testcase  = .

@@ -1,0 +1,61 @@
+In Ashok sir's lecture, all the students were trying to understand the topic, but Pintu was not paying attention and was doing problems in codeforces. He found one interesting question here. Help Pintu in solving this question.
+
+You are given two integers N and K. Consider all the permutations of N. (if N = 3, so the possible permutation will be [{1,2,3},{2,3,1},{1,3,2}, ... and so on].
+
+Let's select one of the permutations  for given .
+You need to construst pair such that if Pair  then xi = P[i]%k and  = P[i] for 1<= i <= N
+Now, You need to sort these pairs and you need to compute the sum of second element from the first pair and second element from the last pair.(So, after sorting if first pair is  and last pair is  then you need to calculate the value of ).
+Let this answer be .
+This  is answer for the particular permutation . Let  be some value of the other permutation by following the above steps. . . And so on.
+
+You would get answers for all the permutations of N. Your task is find maximum value among all the values of V.
+
+(PS:Pintu being shameless,won't go for bruteforce,think something tricky).
+
+Input Format
+
+First line T test cases
+
+In next T lines, each line conatain 2 integers N and K.
+
+Constraints
+
+
+
+
+SUBTASKS:
+
+20 points :
+
+
+
+20 points :
+
+
+
+60 points : Original Constraints
+
+Output Format
+
+Print T lines.
+
+Each line contains the respective output.
+
+Sample Input 0
+
+1
+4 2
+Sample Output 0
+
+5
+Explanation 0
+
+Let us consider one parmutation P = {3,2,1,4}. So, P[1] = 3, P[2] = 2, P[3] = 1, P[4] = 4.
+
+Let's construct N pairs which will be p1 = (1,3). p2 = (0,2). p3 = (1,1). p4 = (0,4).
+
+So, sorting all this will be... p1 = (0,2). p2 = (0,4). p3 = (1,1). p4 = (1,3).
+
+So, the V1 = 3 + 2 = 5.
+
+Here, the answer is 5 for this particular permutation and the maximum value among all the elements V is also 5.
