@@ -1,18 +1,16 @@
-#include<iostream>
 #include<bits/stdc++.h>
-
 using namespace std;
-
 int main(){
-    int n,k,sum=0,counter=0,temp=0;
-    cin >> n >> k;
-    temp=240-k;
-		 for(int i=1;i<=n;i++){
-		 	sum+=5*i;
-		 	if(temp>=sum){
-    	     counter++;
-    	 }
+	int limit=(4*60),n,t,ques=0;
+	cin>>n>>t;
+	int a=5,i=1;
+	while(limit-a >= t && n>0){
+		ques++;
+		n--;
+		i++;
+		a+=(i*5);
 	}
-	cout << counter;
+	cout<<ques<<endl;
+	
 	return 0;
 }
